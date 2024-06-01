@@ -1,0 +1,11 @@
+spring.application.name=Welcome App
+
+#server.port=8001
+
+#registering wth  admin server
+spring.boot.admin.client.url=http://localhost:1111/ 
+
+#eureka.client.service-url.defaultzone=http://localhost:2222 -> manually registering with eureka server
+
+#enabling actuator endpoint
+management.endpoints.web.exposure.include=* 
